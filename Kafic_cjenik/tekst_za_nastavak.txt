@@ -1,0 +1,16 @@
+?? Dodati akciju i gumb za mjenjanje jezika, hrv i eng ?? (google nudi promijenu prijevoda preko api)
+
+
+MENI PIĆA
+
+Topli napitci
+bezalkoholna pića
+pivo
+alkoholna pića
+vino
+
+1) Postaviti gumbe na istu visinu i širinu
+2)Dodati akcije na svaku sliku da prebaci na sljedeću stranicu
+3)Kalibrirati stranice da kad se promini velicina ekrana sadržaj prilagodi ekranu korisnika
+4)Na sljedećim stranicama ce biti tablica sa cijenama pića
+Probaj webflow

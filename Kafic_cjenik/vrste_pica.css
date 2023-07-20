@@ -1,0 +1,227 @@
+
+body{
+    background-color: #000000ea;
+    font-family: Tahoma;
+    margin-bottom: 20px;
+    animation: transitionIN 0.75s;
+}
+
+.button-container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    opacity: 1;
+
+}
+
+.button-container button{
+    margin-bottom: 10px;
+}
+
+@keyframes transitionIN {
+    from{
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+
+    to{
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+  
+  .button-same-size {
+    width: 200px; 
+    height: 40px;
+  }
+
+  header {
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  .button_back:hover{
+    cursor: pointer;
+  }
+
+  h1 {
+    font-family: "Geologica", serif;
+    font-weight: normal;
+    font-size: 80px;
+    color: #FFFFFF;
+  border-bottom: 1px solid #808080;
+  display: inline-block;
+  padding-bottom: 5px;
+  width: 600px;
+  margin-bottom: 10px;
+  margin-top: 75px;
+  }
+  
+  img{
+    width: 80px;
+    height: 80px;
+    float: inline-start;
+  }
+
+  .meni{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    color: #808080;
+    margin-top: 20px;
+    border-top: 2px solid white;
+  }
+  
+  .container {
+    padding: 5px;
+    line-height: 0.8;
+  }
+  
+  .footer-text{
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    color: #808080;
+  }
+
+  .Topli_napitci{
+    padding: 0 30px 0 0;
+    background-color: rgb(69, 69, 69);
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    background-size: cover;
+    background-size: auto 100%;
+    text-align: right;
+    color: white;
+    border-radius: 40px;
+    font-size: 35px;
+    overflow: hidden;
+    border: 2px solid goldenrod;
+    margin-bottom: 50px;
+  }
+  .Topli_napitci:hover{
+    cursor: pointer;
+  }
+  
+  
+  .Topli_napitci img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    z-index: 1;
+  }
+  
+  .Bezalkoholna_pica{
+    padding: 0 30px 0 0;
+    background-color: rgb(69, 69, 69);
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    background-size: cover;
+    background-size: auto 100%;
+    text-align: right;
+    color: white;
+    border-radius: 40px;
+    font-size: 35px;
+    overflow: hidden;
+    border: 2px solid goldenrod;
+    margin-bottom: 50px;
+  }
+
+  .Bezalkoholna_pica:hover{
+    cursor: pointer;
+  }  
+  
+  .Bezalkoholna_pica img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    z-index: 1;
+  }
+ 
+  .Pivo{
+    padding: 0 30px 0 0;
+    background-color: rgb(69, 69, 69);
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    background-size: cover;
+    background-size: auto 100%;
+    text-align: right;
+    color: white;
+    border-radius: 40px;
+    font-size: 35px;
+    overflow: hidden;
+    border: 2px solid goldenrod;
+    margin-bottom: 50px;
+  }
+
+  .Pivo:hover{
+    cursor: pointer;
+  }
+
+  .Pivo img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    z-index: 1;
+  }
+
+  .Alkoholna_pica{
+    padding: 0 30px 0 0;
+    background-color: rgb(69, 69, 69);
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    background-size: cover;
+    background-size: auto 100%;
+    text-align: right;
+    color: white;
+    border-radius: 40px;
+    font-size: 35px;
+    overflow: hidden;
+    border: 2px solid goldenrod;
+    margin-bottom: 50px;
+  }
+
+  .Alkoholna_pica:hover{
+    cursor: pointer;
+  }
+
+ .Alkoholna_pica img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    z-index: 1;
+  }
+
+  .Vino{
+    padding: 0 30px 0 0;
+    background-color: rgb(69, 69, 69);
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    background-size: cover;
+    background-size: auto 100%;
+    text-align: right;
+    color: white;
+    border-radius: 40px;
+    font-size: 35px;
+    overflow: hidden;
+    border: 2px solid goldenrod;
+    margin-bottom: 50px;  
+  }
+
+  .Vino:hover{
+    cursor: pointer;
+  }
+
+  .Vino img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    z-index: 1;
+  }
